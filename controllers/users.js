@@ -41,6 +41,7 @@ const User = require('../models/User')
         }
       }, 
 
+      
       store: async (req, res) => {
         try {
           const user = await User.create(req.body);
